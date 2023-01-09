@@ -1,0 +1,116 @@
+#bloc_pop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 30%;
+    padding: 0px 30px 20px 30px;
+    height: 550px;
+    padding: 0px 0px 0px 0px;
+}
+
+#bloc_pop h2{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 20px 0px 15px 20px;
+}
+
+.bloc_titre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.courbe{
+    padding-top: 5px;
+    padding-right: 5px;
+    color: #0065FC;
+    width: 2%;
+}
+
+/*carte populaire*/
+.card_pop{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card_pop div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+/*carte populaire lien*/
+.card_pop a{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+
+/*carte bloc image*/
+.card_pop figure {
+    margin: 0px 0px 0px 0px;
+    width: 35%;
+ }
+
+/*image populaire*/
+.card_pop figure img{
+    object-fit:cover;
+    object-position:center;
+    width: 100%;
+    height: 122px;
+    height: 112px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px 5px 0px 5px;
+}
+
+/*icone star*/
+.card_pop div  div{
+   height: 60px;
+}
+#bloc_pop .card_pop div .star{
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+padding-top: 30px;
+    height: 20px;
+    
+}
+
+#bloc_pop .card_pop div{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+  margin: 0px; 
+}
+
+#bloc_pop .card_pop div h3{
+    margin: 10px 0px 0px 20px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    width: 100%;
+}
+#bloc_pop .card_pop div p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 10px 0px 0px 0px;
+    padding-left: 20px;
+}

@@ -1,0 +1,60 @@
+#activites{
+    display:flex;
+    flex-direction: column;
+    margin:0px 50px 0px 40px;
+}
+
+.bloc_activites a{
+    text-decoration: none;
+    width: 100%;  
+}
+
+.bloc_activites{
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.card_activites{
+    display: flex;
+    flex-direction: column;
+    border: solid white 1px;
+    box-shadow: #F2F2F2 5px 3px 3px 1px;
+    border-radius: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.card_activites figure{
+    height: 400px;
+    display: flex;
+    margin: 0px;
+}
+
+.card_activites figure img{
+    object-fit: cover;
+    width: 100%;
+    height: 360px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#activites h3{ 
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+
+#activites h2{
+    width: 100%;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-top:10px
+}
+

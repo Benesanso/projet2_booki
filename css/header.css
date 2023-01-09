@@ -1,0 +1,44 @@
+/*header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0px 0px 40px;
+    margin-top: 2px;
+}
+/*navigation*/
+nav {
+    margin:16px 40px;
+}
+
+header nav ul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+    gap: 40px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*effet du menu*/
+header nav ul li a:hover {
+    color:#0065FC;
+    border-top:#0065FC 2px solid;
+    padding-top: 36px;
+}
+
+/*taille logo*/
+img{
+    width: 10%;
+}
+
+    

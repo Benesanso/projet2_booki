@@ -1,0 +1,27 @@
+/*général*/
+
+/*importation des fichiers css*/
+@import "normalize.css";
+@import "header.css";
+@import "search.css";
+@import "filtres.css";
+@import "hebergement.css";
+@import "populaire.css";
+@import "activites.css";
+@import "footer.css";
+@import "media.css";
+
+
+/*couleur du site et font family*/
+:root{ 
+  --blue: #0065FC;
+  --light-blue: #DEEBFF;
+  --grey: #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*corps de page général*/
+body{ 
+  max-width: 1400px;
+  margin: auto;
+}
