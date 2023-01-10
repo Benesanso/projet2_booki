@@ -48,7 +48,7 @@ padding: 0px;
 
 img{
     width: 20%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 header nav {
     margin: 0px;
@@ -88,12 +88,18 @@ header nav ul li a:hover{
 #search{
     margin: 0px 20px 20px 45px;
 }
+#search p{
+    margin-bottom: 30px;
+}
+
 form{
     width: 100%;
 }
+
 form .recherche{
     display: none;
 }
+
 form .loupe{
     display: flex;
     border: solid 2px #0065FC;
@@ -104,22 +110,35 @@ form .loupe{
     cursor: pointer;
     width: 15%;
 }
+
 form .loupe i{
 padding: 10px 0px 0px 10px;
 }
 
-
 #filters{
     margin: 0px 20px 50px 45px;
 }
+
 #filters article div{
-  gap:23px; 
+  height: 130px;
 }
+
 #filters div .choix{
-   gap:0px;
+   gap: 0px;
+   height: 30px;
 }
+
+#filters a{
+    font-size: 14px;
+}
+
+.info{
+    gap:10px;
+}
+
 .info div{
-margin-bottom: 15px;     
+margin-bottom: 15px;  
+width: 8%;  
 }
 
 #hebergement{
@@ -164,6 +183,10 @@ margin-bottom: 15px;
     background:white;
 }
 
+#activites h2{
+    width: 50%;
+}
+
 .bloc_card_hebergement{
     margin: 0px;
 }
@@ -181,6 +204,7 @@ margin-bottom: 15px;
 figure.picture{
     height: 120px ;
 }
+
 figure.picture img{
     height: 120px;
     margin: 0px;
@@ -215,7 +239,7 @@ figure.picture img{
 }
 
 .footer_description{
-  margin-left: 40px;
+  margin-left: 20px;
   margin-bottom: 30px;
 }
 }
