@@ -125,7 +125,7 @@ margin-bottom: 15px;
 #hebergement{
     display: flex;
     flex-direction: column-reverse;
-    padding: 0px; 
+    padding: 0px;
 }
 
 #bloc_pop{
@@ -146,7 +146,7 @@ margin-bottom: 15px;
     flex-direction: column;
     margin-left: 20px;
     width: 90%;
-    height: 200px;
+    height: 210px;
 }
 
 .card_pop figure{
@@ -160,7 +160,7 @@ margin-bottom: 15px;
 
 .bloc_hebergement{
     width: 100%;
-    height: 1300px;
+    height: 1500px;
     background:white;
 }
 
@@ -171,7 +171,6 @@ margin-bottom: 15px;
 .bloc_ligne_hebergement{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 30px;
 }
 
@@ -179,12 +178,20 @@ margin-bottom: 15px;
     padding: 0px 0px 10px 10px;
 }
 
+figure.picture{
+    height: 120px ;
+}
+figure.picture img{
+    height: 120px;
+    margin: 0px;
+}
+
 #hebergement div .afficherplus{
     display:none;
 }
 
 #activites{
-    margin: 200px 20px 0px 20px;
+    margin: 30px 20px 0px 20px;
 }
 
 .bloc_activites{
@@ -192,8 +199,7 @@ margin-bottom: 15px;
 }
 
 .card_activites {
-    height: 170px;
-   
+    height: 170px; 
 }
 
 .card_activites figure img{
