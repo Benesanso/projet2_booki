@@ -13,7 +13,7 @@
 
 
 /*couleur du site et font family*/
-:root{ 
+:root {
   --blue: #0065FC;
   --light-blue: #DEEBFF;
   --grey: #f2f2f2;
@@ -21,7 +21,7 @@
 }
 
 /*corps de page général*/
-body{ 
+body {
   max-width: 1400px;
   margin: auto;
 }
