@@ -1,3 +1,4 @@
+/*section activités*/
 #activites {
     display: flex;
     flex-direction: column;
@@ -9,12 +10,14 @@
     width: 100%;
 }
 
+/*bloc activités*/
 .bloc_activites {
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
+/*cartes activités simple*/
 .card_activites {
     display: flex;
     flex-direction: column;
@@ -25,6 +28,7 @@
     height: 420px;
 }
 
+/*figure et image*/
 .card_activites figure {
     height: 400px;
     display: flex;
@@ -39,6 +43,7 @@
     border-top-right-radius: 20px;
 }
 
+/*titre niveau 3*/
 #activites h3 {
     color: black;
     font-weight: 700;
@@ -50,6 +55,7 @@
     white-space: pre-wrap;
 }
 
+/*titer niveau2*/
 #activites h2 {
     width: 100%;
     font-weight: 700;

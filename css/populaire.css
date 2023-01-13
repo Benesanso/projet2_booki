@@ -1,3 +1,4 @@
+/*bloc populaire*/
 #bloc_pop {
     display: flex;
     flex-direction: column;
@@ -10,6 +11,7 @@
     padding: 0px 0px 0px 0px;
 }
 
+/*titre niveau 2*/
 #bloc_pop h2 {
     font-weight: 700;
     font-size: 22px;
@@ -17,6 +19,7 @@
     margin: 20px 0px 15px 20px;
 }
 
+/*mise en forme titer et courbe*/
 .bloc_titre {
     display: flex;
     justify-content: space-around;
@@ -96,6 +99,7 @@
 
 }
 
+/*description carte populaire*/
 #bloc_pop .card_pop div {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -103,6 +107,7 @@
     margin: 0px;
 }
 
+/*titre niveau 3*/
 #bloc_pop .card_pop div h3 {
     margin: 10px 0px 0px 20px;
     font-weight: 700;
@@ -111,6 +116,7 @@
     width: 100%;
 }
 
+/*paragraphe*/
 #bloc_pop .card_pop div p {
     font-weight: 400;
     font-size: 13px;

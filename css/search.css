@@ -1,9 +1,11 @@
+/*début bloc recherche*/
 #search {
     display: flex;
     flex-direction: column;
     margin: 40px 20px 20px 40px;
 }
 
+/*titre niveau1*/
 h1 {
     display: flex;
     font-weight: 700;
@@ -13,6 +15,7 @@ h1 {
     margin: 0px 0px 15px 0px;
 }
 
+/*paragraphe*/
 p {
     display: flex;
     font-weight: 400;
@@ -21,19 +24,21 @@ p {
     margin: 0px 0px 15px 0px;
 }
 
+/*formulaire*/
 form {
     display: flex;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
 }
-
+/*champ de saisie de texte*/
 form input {
     outline: none;
     border: solid 1px #f2f2f2;
     padding-left: 10px;
 }
 
+/*indice qui décrit la valeur attendue*/
 input::placeholder {
     color: black;
     font-weight: bold;
@@ -54,6 +59,7 @@ form .recherche {
     line-height: 21px;
 }
 
+/*bouton loupe qui apparait en vue mobile*/
 form .loupe {
     display: none;
 

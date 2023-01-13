@@ -1,9 +1,11 @@
+/*section filtre*/
 #filters {
     display: flex;
     flex-direction: column;
     margin: 0px 20px 20px 40px;
 }
 
+/*titre niveau 2*/
 #filters h2 {
     display: flex;
     font-weight: 700;
@@ -13,6 +15,7 @@
     padding-top: 10px;
 }
 
+/*titre plus icones et mots*/
 #filters .bloc-filtre {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +24,7 @@
     gap: 25px;
 }
 
+/*éléments de choix et icones*/
 #filters .ligne-choix {
     display: flex;
     flex-direction: row;
@@ -28,6 +32,7 @@
     margin: 0px;
 }
 
+/*encadrement*/
 .ligne-choix .choix {
     display: flex;
     border: 2px solid #F2F2F2;
@@ -36,10 +41,12 @@
     gap: 15px;
 }
 
+/*couleur icones*/
 #filters i {
     color: #0065FC;
 }
 
+/*misee en forme  des textes*/
 #filters a {
     text-decoration: none;
     color: black;
@@ -49,10 +56,12 @@
     line-height: 20px;
 }
 
+/*effet sur les choix de recherche*/
 .choix:hover {
     background-color: #deebff;
 }
 
+/*placement de l'icone et texte d'info*/
 .info {
     display: flex;
     align-items: center;
@@ -60,6 +69,7 @@
     margin-top: 20px;
 }
 
+/* icone info*/
 .info div {
     display: flex;
     justify-content: center;
