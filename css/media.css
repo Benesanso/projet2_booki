@@ -26,11 +26,16 @@
         justify-content: space-between;
     }
 
+    .courbe {
+        padding-right: 30px;  
+    }
+
     /*dimension carte populaire*/
     .card_pop {
         width: 33%;
         margin-bottom: 20px;
     }
+
 }
 
 /*style version mobile*/
