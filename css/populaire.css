@@ -22,7 +22,7 @@
 /*mise en forme titer et courbe*/
 .bloc_titre {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
     margin-bottom: 0px;
@@ -31,7 +31,7 @@
 
 .courbe {
     padding-top: 5px;
-    padding-right: 5px;
+    padding-right: 35px;
     color: #0065FC;
     width: 2%;
 }
